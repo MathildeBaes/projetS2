@@ -1,9 +1,9 @@
 {
-	"name" : "regieVideo",
+	"name" : "regieAudio",
 	"version" : 1,
-	"creationdate" : 3573048050,
-	"modificationdate" : 3573048054,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : 3573048016,
+	"modificationdate" : 3573048022,
+	"viewrect" : [ 393.0, 132.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
