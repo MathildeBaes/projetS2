@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717776582,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -717773907,
+	"viewrect" : [ 27.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -17,6 +17,11 @@
 			}
 ,
 			"moduleReceptionAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"routerAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 357.0, 79.0, 1056.0, 857.0 ],
+		"rect" : [ 262.0, 509.0, 1056.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,8 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 385.0, 400.0, 430.0, 322.5 ],
-					"presentation_rect" : [ 615.0, 443.0, 0.0, 0.0 ]
+					"patching_rect" : [ 385.0, 400.0, 430.0, 322.5 ]
 				}
 
 			}
@@ -120,8 +119,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 556.0, 61.5, 174.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionAudioReseau.maxpat"
@@ -324,31 +323,31 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-5::obj-13" : [ "flonum", "flonum", 0 ]
+			"obj-5::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-5::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "lecteurVideo.maxpat",
-				"bootpath" : "~/Desktop/ProjetMAxS2/ProjetMaxS2Mathilde/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/demo-TS/regieVideo/ProjetMaxS2Mathilde/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receptionAudioReseau.maxpat",
-				"bootpath" : "~/Desktop/ProjetMAxS2/ProjetMaxS2Mathilde/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/demo-TS/regieVideo/ProjetMaxS2Mathilde/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Desktop/ProjetMAxS2/ProjetMaxS2Mathilde/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/demo-TS/regieVideo/ProjetMaxS2Mathilde/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "effetDeplacement.maxpat",
-				"bootpath" : "~/Desktop/ProjetMAxS2/ProjetMaxS2Mathilde/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/demo-TS/regieVideo/ProjetMaxS2Mathilde/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
