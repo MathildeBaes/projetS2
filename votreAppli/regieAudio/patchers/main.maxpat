@@ -38,11 +38,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 361.0, 168.0, 167.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurAudio.maxpat son.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.5, 270.0, 45.0, 45.0 ],
+					"patching_rect" : [ 143.0, 262.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -54,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 214.0, 43.0, 24.0, 24.0 ],
+					"patching_rect" : [ 143.0, 87.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -66,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 228.0, 157.0, 135.0, 22.0 ],
+					"patching_rect" : [ 137.0, 154.0, 135.0, 22.0 ],
 					"style" : "",
 					"text" : "syntheseFM.maxpat 57"
 				}
@@ -105,13 +118,19 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "syntheseFM.maxpat",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
+				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lecteurAudio.maxpat",
+				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
