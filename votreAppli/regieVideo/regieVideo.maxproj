@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716918442,
+	"modificationdate" : -716915308,
 	"viewrect" : [ 12.0, 99.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"negatif.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"moduleReceptionAudio.maxpat" : 			{
@@ -32,11 +37,6 @@
 			}
 ,
 			"LecteurVideo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"EffetNegatifVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
