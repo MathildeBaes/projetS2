@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716920099,
-	"viewrect" : [ 27.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -716918442,
+	"viewrect" : [ 12.0, 99.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -32,6 +32,26 @@
 			}
 ,
 			"LecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetNegatifVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetVitesseVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetDecoupageReconstitutionVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetSuperpositionVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
