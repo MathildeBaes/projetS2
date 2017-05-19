@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 697.0, 168.0, 640.0, 480.0 ],
+		"rect" : [ 877.0, 162.0, 744.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.0, 179.5, 166.0, 22.0 ],
+					"patching_rect" : [ 562.0, 179.5, 140.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieVideo/video1/lecture $1"
+					"text" : "/regieVideo/.../lecture $1"
 				}
 
 			}
@@ -107,9 +107,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 259.0, 124.5, 160.0, 22.0 ],
+					"patching_rect" : [ 259.0, 124.5, 134.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieAudio/audio1/lecture 1"
+					"text" : "/regieAudio/.../lecture 1"
 				}
 
 			}
@@ -120,9 +120,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 128.0, 160.0, 22.0 ],
+					"patching_rect" : [ 58.0, 128.0, 134.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieAudio/audio1/lecture 0"
+					"text" : "/regieAudio/.../lecture 0"
 				}
 
 			}
@@ -133,9 +133,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 247.5, 167.0, 22.0 ],
+					"patching_rect" : [ 287.0, 247.5, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieAudio/audio1/lecture $1"
+					"text" : "/regieAudio/.../lecture $1"
 				}
 
 			}
