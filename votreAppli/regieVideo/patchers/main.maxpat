@@ -38,25 +38,12 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 338.0, 750.0, 100.0, 22.0 ],
-					"style" : "",
-					"text" : "mix.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 329.0, 827.5, 241.0, 140.730499 ]
+					"patching_rect" : [ 741.0, 623.5, 438.0, 323.730499 ]
 				}
 
 			}
@@ -234,7 +221,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 503.0, 335.5, 45.0, 45.0 ],
+					"patching_rect" : [ 411.5, 287.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -476,15 +463,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -533,6 +511,7 @@
 					"destination" : [ "obj-1", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-14", 2 ]
 				}
 
@@ -542,7 +521,7 @@
 					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -552,13 +531,34 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-14", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-14", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-14", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"order" : 0,
@@ -568,7 +568,37 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -730,24 +760,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -801,8 +813,8 @@
 			"obj-1::obj-34::obj-14::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
 			"obj-1::obj-34::obj-10::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
 			"obj-1::obj-34::obj-8::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-1::obj-34::obj-16::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-1::obj-34::obj-18::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-1::obj-34::obj-16::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-1::obj-34::obj-22::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
 			"obj-1::obj-34::obj-24::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
 			"obj-1::obj-34::obj-14::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ]
@@ -890,12 +902,6 @@
 				"name" : "324575__zagi2__horror-bells-2.wav",
 				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieVideo/media",
 				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mix.maxpat",
-				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieVideo/patchers",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
