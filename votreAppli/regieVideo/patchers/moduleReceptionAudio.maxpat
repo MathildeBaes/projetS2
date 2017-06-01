@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 609.0, 208.0, 640.0, 480.0 ],
+		"rect" : [ 662.0, 240.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -97,9 +97,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 239.0, 143.0, 131.0, 22.0 ],
+					"patching_rect" : [ 239.0, 143.0, 145.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 8002"
+					"text" : "jit.net.recv @port #1"
 				}
 
 			}
