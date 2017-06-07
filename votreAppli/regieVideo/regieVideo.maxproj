@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715791375,
+	"modificationdate" : -715268304,
 	"viewrect" : [ 12.0, 99.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,19 +16,14 @@
 				"toplevel" : 1
 			}
 ,
-			"mix.maxpat" : 			{
+			"niveauDeGris.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"analyseSpectrale_10b.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"moduleReceptionAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/MathildeGit/projetS2/ressourcesMAX",
+					"projectrelativepath" : "../../ressourcesMAX"
+				}
+
 			}
 ,
 			"LecteurVideo.maxpat" : 			{
@@ -41,22 +36,7 @@
 				"local" : 1
 			}
 ,
-			"negatif.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"filtreBande.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"routerAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
+			"AnalyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -66,17 +46,37 @@
 				"local" : 1
 			}
 ,
+			"analyseSpectrale_10b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"analyseSpectrale_1b.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"AnalyseAudio.maxpat" : 			{
+			"filtreBande.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"decoupage.maxpat" : 			{
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"negatif.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"routerAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"moduleReceptionAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -84,21 +84,6 @@
 		}
 ,
 		"media" : 		{
-			"Ballet.mp4" : 			{
-				"kind" : "moviefile",
-				"local" : 1
-			}
-,
-			"Ink_in_water.mp4" : 			{
-				"kind" : "moviefile",
-				"local" : 1
-			}
-,
-			"Pocket_watch.mp4" : 			{
-				"kind" : "moviefile",
-				"local" : 1
-			}
-,
 			"133100__klankbeeld__horror-ambience-10.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -111,6 +96,21 @@
 ,
 			"324575__zagi2__horror-bells-2.wav" : 			{
 				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"Ballet.mp4" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"Ink_in_water.mp4" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"Pocket_watch.mp4" : 			{
+				"kind" : "moviefile",
 				"local" : 1
 			}
 

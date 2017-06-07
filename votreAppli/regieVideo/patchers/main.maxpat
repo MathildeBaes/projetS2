@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 282.0, 79.0, 1216.0, 857.0 ],
+		"rect" : [ 210.0, 79.0, 1216.0, 855.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 765.0, 621.0, 124.0, 22.0 ],
+					"style" : "",
+					"text" : "niveauDeGris.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 528.0, 653.0, 180.0, 22.0 ],
+					"style" : "",
+					"text" : "EffetSuperpositionVideo.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 741.0, 623.5, 438.0, 323.730499 ]
+					"patching_rect" : [ 625.0, 747.5, 438.0, 323.730499 ]
 				}
 
 			}
@@ -55,21 +81,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ]
+									"mode" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ]
 								}
 
 							}
@@ -94,21 +120,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ]
+									"mode" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ]
 								}
 
 							}
@@ -120,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 349.0, 182.0, 150.0, 30.0 ],
+					"patching_rect" : [ 580.0, 182.0, 150.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -133,21 +159,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"mode" : [ "basic" ],
 									"slurtime" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ]
+									"mode" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ]
 								}
 
 							}
@@ -159,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 650.833374, 182.0, 150.0, 30.0 ],
+					"patching_rect" : [ 333.833374, 182.0, 150.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -171,7 +197,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 301.5, 154.0, 207.0, 22.0 ],
+					"patching_rect" : [ 532.5, 154.0, 207.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleReceptionAudio.maxpat 8004"
 				}
@@ -184,7 +210,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 601.333374, 154.0, 207.0, 22.0 ],
+					"patching_rect" : [ 284.333374, 154.0, 207.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleReceptionAudio.maxpat 8003"
 				}
@@ -221,7 +247,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 411.5, 287.0, 45.0, 45.0 ],
+					"patching_rect" : [ 518.5, 300.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -272,7 +298,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 268.5, 298.5, 126.0, 22.0 ],
+					"patching_rect" : [ 304.0, 305.5, 126.0, 22.0 ],
 					"style" : "",
 					"text" : "AnalyseAudio.maxpat"
 				}
@@ -463,10 +489,19 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
+					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 2 ]
 				}
 
 			}
@@ -620,7 +655,7 @@
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -630,7 +665,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -742,7 +777,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
+					"destination" : [ "obj-6", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
@@ -760,6 +804,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -769,7 +822,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 2 ],
+					"destination" : [ "obj-17", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -778,7 +840,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
@@ -796,28 +858,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-34::obj-2::obj-19::obj-16" : [ "flonum[18]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-2::obj-19::obj-13" : [ "flonum[22]", "flonum", 0 ],
-			"obj-1::obj-34::obj-8::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-6::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-1::obj-29::obj-19::obj-13" : [ "flonum[32]", "flonum", 0 ],
-			"obj-1::obj-34::obj-16::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-1::obj-34::obj-20::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-1::obj-34::obj-24::obj-19::obj-13" : [ "flonum[9]", "flonum", 0 ],
-			"obj-1::obj-34::obj-10::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-1::obj-29::obj-19::obj-16" : [ "flonum[21]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-18::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-20::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-22::obj-19::obj-13" : [ "flonum[7]", "flonum", 0 ],
-			"obj-1::obj-34::obj-6::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
-			"obj-1::obj-34::obj-14::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
-			"obj-1::obj-34::obj-10::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
-			"obj-1::obj-34::obj-8::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-1::obj-34::obj-18::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-1::obj-34::obj-16::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-22::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-24::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
-			"obj-1::obj-34::obj-14::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ]
+			"obj-1::obj-29::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
+			"obj-1::obj-5::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-1::obj-5::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-1::obj-29::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -840,12 +884,6 @@
 			}
 , 			{
 				"name" : "pitchDetection.maxpat",
-				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieVideo/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "analyseSpectrale_10b.maxpat",
 				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -902,6 +940,12 @@
 				"name" : "324575__zagi2__horror-bells-2.wav",
 				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieVideo/media",
 				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "niveauDeGris.maxpat",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/ressourcesMAX",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
