@@ -38,12 +38,13 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.5, 270.0, 45.0, 45.0 ],
-					"style" : ""
+					"patching_rect" : [ 224.0, 232.0, 152.0, 22.0 ],
+					"style" : "",
+					"text" : "moduleEnvoiAudio.maxpat"
 				}
 
 			}
@@ -75,20 +76,9 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -103,15 +93,25 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-2::obj-16" : [ "live.gain~", "live.gain~", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "syntheseFM.maxpat",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/ressourcesMAX",
+				"bootpath" : "/Volumes/i160597/Signal Github/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
+				"bootpath" : "/Volumes/i160597/Signal Github/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moduleEnvoiAudio.maxpat",
+				"bootpath" : "/Volumes/i160597/Signal Github/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
