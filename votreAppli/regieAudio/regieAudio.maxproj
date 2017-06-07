@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715267713,
-	"viewrect" : [ 123.0, 226.0, 300.0, 500.0 ],
+	"modificationdate" : -715266660,
+	"viewrect" : [ 31.0, 450.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -25,6 +25,15 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
