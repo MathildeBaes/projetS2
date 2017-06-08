@@ -50,8 +50,48 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "button",
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 233.5, 238.0, 122.0, 22.0 ],
+					"style" : "",
+					"text" : "mixageAudio.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "262773__zagi2__haunting-voices(1).wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"basictuning" : [ 440 ],
+									"formantcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"mode" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-18",
+					"maxclass" : "playlist~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
@@ -62,14 +102,80 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "324575__zagi2__horror-bells-2.wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"basictuning" : [ 440 ],
+									"formantcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"mode" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-16",
+					"maxclass" : "playlist~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 137.0, 154.0, 135.0, 22.0 ],
 					"style" : "",
 					"text" : "syntheseFM.maxpat 57"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "133100__klankbeeld__horror-ambience-10.wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"basictuning" : [ 440 ],
+									"formantcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"mode" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-14",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 31.0, 80.0, 150.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
