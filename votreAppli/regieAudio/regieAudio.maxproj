@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715794102,
-	"viewrect" : [ -6.0, 145.0, 300.0, 500.0 ],
+	"modificationdate" : -714854891,
+	"viewrect" : [ 0.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"syntheseFM.maxpat" : 			{
@@ -113,6 +118,10 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
