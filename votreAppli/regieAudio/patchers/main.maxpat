@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 350.0, 79.0, 1056.0, 429.0 ],
+		"rect" : [ 224.0, 480.0, 1056.0, 429.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 904.0, 272.0, 45.0, 45.0 ],
-					"presentation_rect" : [ 904.0, 270.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -55,7 +54,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 693.0, 288.0, 45.0, 45.0 ],
-					"presentation_rect" : [ 693.0, 288.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -67,7 +65,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.0, 272.0, 45.0, 45.0 ],
-					"presentation_rect" : [ 430.0, 272.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -102,10 +99,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 581.5, 213.0, 152.0, 22.0 ],
-					"presentation_rect" : [ 481.0, 206.0, 0.0, 0.0 ],
+					"patching_rect" : [ 581.5, 213.0, 183.0, 22.0 ],
 					"style" : "",
-					"text" : "moduleEnvoiAudio.maxpat"
+					"text" : "moduleEnvoiAudio.maxpat 8003"
 				}
 
 			}
@@ -115,10 +111,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.5, 203.0, 152.0, 22.0 ],
-					"presentation_rect" : [ 306.5, 205.0, 0.0, 0.0 ],
+					"patching_rect" : [ 374.5, 203.0, 183.0, 22.0 ],
 					"style" : "",
-					"text" : "moduleEnvoiAudio.maxpat"
+					"text" : "moduleEnvoiAudio.maxpat 8004"
 				}
 
 			}
@@ -128,9 +123,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.5, 203.0, 152.0, 22.0 ],
+					"patching_rect" : [ 110.5, 203.0, 183.0, 22.0 ],
 					"style" : "",
-					"text" : "moduleEnvoiAudio.maxpat"
+					"text" : "moduleEnvoiAudio.maxpat 8002"
 				}
 
 			}
@@ -142,7 +137,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 780.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 605.5, 73.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -168,7 +162,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 669.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 553.5, 302.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -181,7 +174,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 632.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 516.5, 302.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -195,7 +187,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 707.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 591.5, 302.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -208,7 +199,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 438.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 421.5, 305.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -221,7 +211,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 401.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 384.5, 305.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -235,7 +224,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 476.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 459.5, 305.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -248,7 +236,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 211.5, 73.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 270.5, 308.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -280,28 +267,51 @@
 			}
 , 			{
 				"box" : 				{
-					"clipheight" : 22.0,
+					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
+								"filename" : "262773__zagi2__haunting-voices.wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"formantcorrection" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
 								"filename" : "262773__zagi2__haunting-voices(1).wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
 									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"pitchshift" : [ 1.0 ]
+									"pitchcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"formantcorrection" : [ 0 ],
+									"basictuning" : [ 440 ]
 								}
 
 							}
@@ -313,7 +323,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 433.5, 153.0, 124.0, 22.0 ],
+					"patching_rect" : [ 433.5, 155.0, 124.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -327,21 +337,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
 									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"pitchshift" : [ 1.0 ]
+									"pitchcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"formantcorrection" : [ 0 ],
+									"basictuning" : [ 440 ]
 								}
 
 							}
@@ -366,21 +376,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
 									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"pitchshift" : [ 1.0 ]
+									"pitchcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"formantcorrection" : [ 0 ],
+									"basictuning" : [ 440 ]
 								}
 
 							}
@@ -757,44 +767,50 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-30::obj-16" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-29::obj-16" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-28::obj-16" : [ "live.gain~[3]", "live.gain~", 0 ]
+			"obj-29::obj-16" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-28::obj-16" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-30::obj-16" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "133100__klankbeeld__horror-ambience-10.wav",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/media",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieAudio/media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "324575__zagi2__horror-bells-2.wav",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/media",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieAudio/media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "262773__zagi2__haunting-voices.wav",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieAudio/media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moduleEnvoiAudio.maxpat",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syntheseFM.maxpat",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
-				"bootpath" : "~/Documents/Gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/MathildeGit/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -902,8 +918,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

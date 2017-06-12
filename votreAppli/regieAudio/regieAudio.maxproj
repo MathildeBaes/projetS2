@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -714854891,
-	"viewrect" : [ 0.0, 145.0, 300.0, 500.0 ],
+	"modificationdate" : -714854003,
+	"viewrect" : [ 338.0, 110.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,7 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"receptionOSC.maxpat" : 			{
+			"osc.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -27,6 +27,11 @@
 			}
 ,
 			"simpleFM~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -42,11 +47,6 @@
 			}
 ,
 			"pedaleWahWah.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"osc.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -100,6 +100,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"262773__zagi2__haunting-voices.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -114,7 +119,7 @@
 				"local" : 1
 			}
 ,
-			"262773__zagi2__haunting-voices(1).wav" : 			{
+			"262773__zagi2__haunting-voices.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}

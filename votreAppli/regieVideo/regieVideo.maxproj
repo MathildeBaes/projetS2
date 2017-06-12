@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715268304,
+	"modificationdate" : -714853300,
 	"viewrect" : [ 12.0, 99.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,16 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"niveauDeGris.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/MathildeGit/projetS2/ressourcesMAX",
-					"projectrelativepath" : "../../ressourcesMAX"
-				}
-
 			}
 ,
 			"LecteurVideo.maxpat" : 			{
@@ -42,11 +32,6 @@
 			}
 ,
 			"pitchDetection.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"analyseSpectrale_10b.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -79,6 +64,26 @@
 			"moduleReceptionAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"niveauDeGris.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/MathildeGit/projetS2/ressourcesMAX",
+					"projectrelativepath" : "../../ressourcesMAX"
+				}
+
+			}
+,
+			"analyseSpectrale_10b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/MathildeGit/projetS2/ressourcesMAX",
+					"projectrelativepath" : "../../ressourcesMAX"
+				}
+
 			}
 
 		}

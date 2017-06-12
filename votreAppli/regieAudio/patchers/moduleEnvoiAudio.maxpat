@@ -48,7 +48,7 @@
 					"patching_rect" : [ 292.0, 44.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
+							"parameter_longname" : "live.gain~[3]",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -79,11 +79,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 152.0, 85.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -171,9 +171,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 306.0, 232.0, 22.0 ],
+					"patching_rect" : [ 226.0, 306.0, 219.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.send @ip 192.168.0.17 @port 8002"
+					"text" : "jit.net.send @ip 192.168.0.17 @port #1"
 				}
 
 			}
@@ -303,13 +303,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-16" : [ "live.gain~", "live.gain~", 0 ]
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
